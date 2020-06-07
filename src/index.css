@@ -3,22 +3,19 @@ body {
     width: 100%;
 }
 
-#nameLabel {
-    text-align: left;
-}
-
-.addToList {
-    align-items: center;
+#Label {
+    font-size: 24px;
+    text-align: right;
 }
 
 .addSiteForm {
     background-color: lightblue;
-    width: auto;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
     text-align: center;
-    width: ;
+    width: 40%;
+    padding: 10px;
 }
 
 #nameField {
@@ -33,9 +30,12 @@ body {
     background-color: #f7f5f5;
     font-size: 20px;
     margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 5px;
-    height: 40px, auto;
-    padding: 20px 20px 20px 20px;
+    height: auto;
+    width: auto;
+    padding: 10px 10px 10px 10px;
 }
 
 .itemList {
