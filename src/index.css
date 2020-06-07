@@ -4,10 +4,9 @@ body {
 
 .addSiteForm {
     background-color: goldenrod;
-    width: 50%;
+    width: 50%, auto;
     margin-left: 25%;
     margin-right: 25%;
-    margin: auto;
 }
 
 .elements div {
