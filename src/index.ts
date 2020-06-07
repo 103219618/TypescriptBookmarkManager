@@ -1,3 +1,5 @@
+// import {Bookmark} from 
+
 let addButton = document.getElementById("addButton") as HTMLButtonElement | null;
 let elements = document.getElementById("elements") as HTMLElement;
 let nameField = document.getElementById("nameField") as HTMLDataElement;

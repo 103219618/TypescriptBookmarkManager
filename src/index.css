@@ -1,12 +1,32 @@
 body {
     background-color: goldenrod;
+    width: 100%;
+}
+
+#nameLabel {
+    text-align: left;
+}
+
+.addToList {
+    align-items: center;
 }
 
 .addSiteForm {
-    background-color: goldenrod;
-    width: 50%, auto;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: lightblue;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    text-align: center;
+    width: ;
+}
+
+#nameField {
+    width: 250px;
+}
+
+#urlField {
+    width: 250px;
 }
 
 .elements div {
@@ -20,7 +40,8 @@ body {
 
 .itemList {
     display: grid;
-    grid-template-columns: 5% 40% 45% 5% 5%;
+    grid-template-columns: 5% 30% 55% 5% 5%;
+    width: 500px;    
 }
 
 .itemList h5 {
