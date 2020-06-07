@@ -1,5 +1,5 @@
 body {
-    background-color: goldenrod;
+    background-image: url(bg.jpg);
     width: 100%;
 }
 
@@ -9,7 +9,9 @@ body {
 }
 
 .addSiteForm {
-    background-color: lightblue;
+    background-color: pink;
+    opacity: 60%;
+    border-radius: 10px;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 5%;
