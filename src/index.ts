@@ -1,7 +1,6 @@
 import { Bookmark } from "./bookmarkclasses";
 
 let addButton = document.getElementById("addButton") as HTMLButtonElement | null;
-let elements = document.getElementById("elements") as HTMLElement;
 let nameField = document.getElementById("nameField") as HTMLInputElement;
 let urlField = document.getElementById("urlField") as HTMLInputElement;
 
@@ -18,5 +17,8 @@ else {
 
         let mybookmark = new Bookmark(nameField.value, urlField.value);
         mybookmark.CreateMyBookmark(nameField.value, urlField.value);
+        
+        nameField.value = "";
+        urlField.value = "";
     }
 }

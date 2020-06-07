@@ -13,6 +13,7 @@ export class Bookmark {
 
     CreateMyBookmark(nameField1: string, urlField1: string) {
 
+        let elements = document.getElementById("elements") as HTMLElement;
 
         let webName = nameField1;
         let webUrl = urlField1;
@@ -34,7 +35,6 @@ export class Bookmark {
         let myNewElementText1 = document.createElement("h5");
         myNewElementText1.appendChild(document.createTextNode(webName));
         myNewElement.appendChild(myNewElementText1);
-        nameField.value = ""
 
         // setting url link
         let url = document.createElement("a");
@@ -43,7 +43,6 @@ export class Bookmark {
         url.classList.add("urlDisplay");
         url.appendChild(document.createTextNode(url2));
         myNewElement.appendChild(url);
-        urlField.value = ""
 
         // icon setup
         let favourIcon = document.createElement("a");
