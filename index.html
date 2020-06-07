@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="src/index.css">
 </head>
 <body>
-    <button id="myButton">Click Me</button>
+    <div class="addSiteForm">
+        <div class="addToList">
+            <h1>Bookmark Manager</h1>
+            <input type="text" id="nameField" placeholder="Website Name...">
+            <input type="text" id="urlField" placeholder="Website Link...">
+            <button id="addButton" class="abutton">Add</button>
+        </div>
 
-    <script type="text/javascript" src="dist/index.js"></script>
+        <div class="elements" id="elements">
+
+        </div>
+    </div>
+
+    <script src="/dist/index.js"></script>
+
 </body>
 </html>

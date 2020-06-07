@@ -1,0 +1,25 @@
+body {
+    background-color: goldenrod;
+}
+
+.addSiteForm {
+    background-color: goldenrod;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin: auto;
+}
+
+.elements div {
+    background-color: #f7f5f5;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 40px, auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.itemList {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
